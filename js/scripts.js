@@ -2,11 +2,11 @@
 function initSolonick() {
     "use strict";
     //   loader ------------------
-    $(".pin").text("Loading");
-    $(".loader-wrap").fadeOut(300, function () {
+    $(".pin").text("");
+    $(".loader-wrap").fadeOut(5000, function () {
         $("#main").animate({
-            opacity: "1"
-        }, 300);
+            opacity: "100"
+        }, 6000);
     });
     //   Background image ------------------
     var a = $(".bg");
